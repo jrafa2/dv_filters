@@ -1,0 +1,3 @@
+test_i2c_read
+test_i2c_write
+test_adc_read
