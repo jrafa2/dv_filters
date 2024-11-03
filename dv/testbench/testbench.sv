@@ -17,6 +17,8 @@ module top;
 	//reset?
   end
   
+  //clock?
+  
   initial begin
     //interface to database
     run_test(); //+UVM_TESTNAME=test_i2c_write

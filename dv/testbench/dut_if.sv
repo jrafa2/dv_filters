@@ -5,6 +5,7 @@ interface dut_if();
   logic clk;		//chip clock
   logic reset_n;	//chip reset
   
+  //following signals only for system-level verification. You can remove them for block-level
   tri1 sclk;
   tri1 sdata;   //be aware with inout signals. It is an opendrain that must be driven by someone continiuously
    
